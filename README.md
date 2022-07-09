@@ -1,11 +1,12 @@
-# Physically Base Simulation project - Group 11
+# Physically Base Simulation project
+![alt text](/demo/duck_simulation.png)
 ## Introduction
-Soft bodies simulation using graphs of ellipsoidal particles. This project has been implemented starting from the ideas of ["Solid Simulation with Oriented Particles"]{https://matthias-research.github.io/pages/publications/orientedParticles.pdf>} by [Matthias Müller]{https://github.com/matthias-research}. The project was awarded a prize by researchers at Disney Research Studios and professors from ETH Zurich.
+Soft bodies simulation using graphs of ellipsoidal particles. This project has been implemented starting from the ideas of ["Solid Simulation with Oriented Particles"](https://matthias-research.github.io/pages/publications/orientedParticles.pdf) by [Matthias Müller](https://github.com/matthias-research). The project was awarded a prize by researchers at Disney Research Studios and professors from ETH Zurich.
 
 ## Contributors:
-[Davide Corigliano]{https://github.com/daviC1999}
-[Thomas Poyed]{https://github.com/Toratom}
-[Lucas Teisser]{https://github.com/LucasTsr}
+[Davide Corigliano](https://github.com/daviC1999)
+[Thomas Poyed](https://github.com/Toratom)
+[Lucas Teisser](https://github.com/LucasTsr)
 
 ## Libraries and versions:
 Tachi - 0.7.32 </br>
@@ -73,3 +74,6 @@ g Meshes/graph_name  # Create graph_name.pkl in the folder Meshes
 ```
 <br/>
 Note: we use .pkl files to store the data of the particles graphs
+
+## Video: 
+[demo](/demo/demo.mp4)
