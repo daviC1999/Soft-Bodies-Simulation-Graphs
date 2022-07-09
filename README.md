@@ -1,5 +1,13 @@
 # Physically Base Simulation project - Group 11
-## Version of the libraries used:
+## Introduction
+Soft bodies simulation using graphs of ellipsoidal particles. This project has been implemented starting from the ideas of ["Solid Simulation with Oriented Particles"]{https://matthias-research.github.io/pages/publications/orientedParticles.pdf>} by [Matthias Müller]{https://github.com/matthias-research}. The project was awarded a prize by researchers at Disney Research Studios and professors from ETH Zurich.
+
+## Contributors:
+[Davide Corigliano]{https://github.com/daviC1999}
+[Thomas Poyed]{https://github.com/Toratom}
+[Lucas Teisser]{https://github.com/LucasTsr}
+
+## Libraries and versions:
 Tachi - 0.7.32 </br>
 Numpy - 1.21.2 </br>
 Sklearn - 1.0 </br>
@@ -7,9 +15,10 @@ Tqdm - 4.62.3 </br>
 Open3d - 0.13.0 </br>
 Scipy - 1.7.1 </br>
 Our python version: Python 3.8
+
 ## How to run the code:
 ### main.py (in folder Simulator)
-**Has to be run from the folder ```PBS_Project/Simulator```.** <br/>
+**It has to be launched from the folder ```PBS_Project/Simulator```.** <br/>
 ```main.py``` represents our simulator. We have prepared a mock simulation
 to simplify the imports of meshes and the set-up of the program.<br/>
 ```main.py``` can be runned in smulation mode or skinning mode.<br/>
@@ -30,7 +39,8 @@ python3 main.py True 2005
 ```
 A sample execution is the following:
 ![alt text](./README_pictures/img3.png)
-If we want to use default parameters:
+<br/>
+To use default parameters:
 ![alt text](./README_pictures/img4.png)
 ### mesh_generator.py (in folder MeshGenerator)
 ```mesh_generator.py``` allows to build custom particles graphs that can be
@@ -47,6 +57,7 @@ and sizes. Our suggestion is to use the duck mesh with the parameters
 A sample execution is the following:
 ![alt text](./README_pictures/img1.png)
 ![alt text](./README_pictures/img2.png)
+<br/>
 We implemented several commands to interact with the generated mesh
 ```
 q  # Exit from the script
@@ -60,4 +71,5 @@ vg  # Visualize the generated graph
 ```
 g Meshes/graph_name  # Create graph_name.pkl in the folder Meshes
 ```
+<br/>
 Note: we use .pkl files to store the data of the particles graphs
