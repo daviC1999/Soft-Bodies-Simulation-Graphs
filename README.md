@@ -1,4 +1,4 @@
-# Physically Base Simulation project
+# Soft bodies simulation using graphs
 ![alt text](/demo/duck_simulation.png)
 ## Introduction
 Soft bodies simulation using graphs of ellipsoidal particles. This project has been implemented starting from the ideas of ["Solid Simulation with Oriented Particles"](https://matthias-research.github.io/pages/publications/orientedParticles.pdf) by [Matthias Müller](https://github.com/matthias-research). The project was awarded a prize by researchers at Disney Research Studios and professors from ETH Zurich.
